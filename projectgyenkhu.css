@@ -1,0 +1,229 @@
+body{
+  background-color: white;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 5px 45px 5px 45px;
+}
+header{
+  padding-top:10px;
+  min-height:70px;
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+}
+header #branding{
+  float:left;
+  color:#00cc66;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+  padding: 0 0 20px 0;
+}
+header .highlight, header .current a{
+  font-weight: bold;
+  color:#00cc66;
+  font-family:"Century Gothic";
+}
+header a{
+  color:#00cc66;
+  font-weight: bold;
+}
+header a:hover{
+  color:black;
+  background-color:#afffd7;
+  font-weight: bold;
+}
+
+.block{
+  font-size: 20px;
+  font-family:'PT Serif', serif;
+  font-style: uppercase;
+  font-weight: 600;
+  color:white;
+  background-color:#ffd787;
+  padding top:70%;
+  top:50px;
+  margin-top:55px;
+  position:sticky;
+  display:center;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  width:100px;
+  height:45px;
+  line height:100px;
+  left:200rem;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.block {
+  transition-duration: 0.4s;
+}
+
+.block:hover {
+  background-color:magenta;
+  color: white;
+  box-shadow: 0 0;
+}
+h1{
+  font-family: helvetica;
+  font-size: 30px;
+color: #00cc66;
+text-align:left;
+}
+p{
+  color: salmon;
+  text-align: justify;
+}
+h2{
+  color: blue;
+  padding-top:5%;
+  padding-left: 10px;
+  font-family:arial;
+}
+h3{
+  color: gold;
+  float:none;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+h4{
+  text-align: inherit;
+  padding-top:10%;
+}
+h5{
+  color:purple;
+  font-size: 25px;
+  font-family:arial;
+}
+
+header .Pic1{
+width: 10%;
+height: 5%;
+float:left;
+}
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 25px 0 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  min-height:400px;
+  background: no-repeat 0 -100px;
+  text-align:left;
+  color:#ffffff;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*Footer*/
+footer{
+  border-top:#00d7d7 3px solid;
+  margin-top:20px;
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  overflow: auto; /* Overflow due to float */
+  background-color:#d7ffff;
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  padding:10px 0; /* Some top and bottom padding */
+  font-weight: 500;
+  font-size:17px; /* Increased font size */
+}
+.Pic2{
+  border-right:none;
+  align-items: center;
+  padding-left:45px;
+  margin-right: 30px;
+  width:20px;
+  height:20px;
+  padding-bottom: 10px;
+}
+/*Footer*/

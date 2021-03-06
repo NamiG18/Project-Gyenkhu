@@ -1,0 +1,122 @@
+
+header{
+  min-height:70px;
+  border-bottom:#ffffaf 3px solid;
+  padding-top:30px;
+  background-color: white;
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+}
+header #branding{
+  float:left;
+  color:#00cc66;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+  padding: 0 0 30px 0;
+}
+header .highlight, header .current a{
+  font-weight: bold;
+  color:#00cc66;
+  font-family:"Century Gothic";
+
+}
+header a{
+  color:#00cc66;
+  font-weight: bold;
+}
+header a:hover{
+  color:black;
+  background-color:#afffd7;
+  font-weight: bold;
+}
+body {
+font family: 'Lato',sans-serif;
+font-size: 20px;
+padding: 5px 45px 5px 45px;
+background-image: url('background img.png');
+}
+.form{
+  width:500px;
+  margin:auto;
+  padding-left: 400px;
+  padding:20px;
+  font-size:18px;
+  font-family:"Century Gothic";
+}
+input{
+  font-size: 18px;
+  font-family:"Century Gothic";
+}
+select{
+  font-size: 18px;
+  font-family:"Century Gothic";
+}
+textarea {
+  width:80%;
+  padding:5px;
+  font-size: 18px;
+  font-family:"Century Gothic";
+}
+.button {
+  background-color:khaki;
+  border: none;
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: teal;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.End{
+  padding-left: 600px;
+}
+/*Footer*/
+footer{
+  border-top:#00d7d7 3px solid;
+  margin-top:20px;
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  overflow: auto; /* Overflow due to float */
+  background-color:#d7ffff;
+  float: left; /* Float links side by side */
+  font-weight: 500;
+  text-align: center; /* Center-align text */
+  padding:10px 0; /* Some top and bottom padding */
+  font-size:17px; /* Increased font size */
+}
+.Pic2{
+  border-right:none;
+  align-items: center;
+  padding-left: 42px;
+  margin-right: 30px;
+  width:20px;
+  height:20px;
+  padding-bottom: 10px;
+}
+/*Footer*/
